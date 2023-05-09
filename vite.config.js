@@ -6,6 +6,9 @@ export default defineConfig({
         host: '0.0.0.0',
         hmr: {
             host: 'localhost'
+        },
+        watch: {
+            usePolling: true
         }
     },
     plugins: [
